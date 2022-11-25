@@ -1,5 +1,5 @@
 {
-  "name": "myFramework",
+  "name": "my-online-cinema",
   "version": "1.0.0",
   "description": "",
   "private": true,
@@ -14,15 +14,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/MaksimNevzorov/myFramework.git"
+    "url": "git+https://github.com/MaksimNevzorov/online-kino.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/MaksimNevzorov/myFramework/issues"
+    "url": "https://github.com/MaksimNevzorov/online-kino/issues"
   },
-  "homepage": "https://github.com/MaksimNevzorov/myFramework#readme",
+  "homepage": "https://github.com/MaksimNevzorov/online-kino#readme",
   "devDependencies": {
     "@babel/core": "^7.18.9",
     "@babel/preset-env": "^7.18.9",
@@ -46,7 +46,6 @@
   },
   "dependencies": {
     "dotenv-webpack": "^8.0.1",
-    "firebase": "^9.13.0",
-    "normalize.css": "^8.0.1"
+    "firebase": "^9.13.0"
   }
 }
