@@ -1,5 +1,5 @@
 import { Component } from "./core";
-import "./components/atoms/typography/headings/H1";
+import './components'
 
 export class App extends Component {
   constructor() {
@@ -8,14 +8,10 @@ export class App extends Component {
 
 render() {
   return `
-      <it-h1>
-        <div>Hello</div>
-        <div>Hello</div>
-        <div>Hello</div>
-        <div>Hello</div>
-        <div>Hello</div>
-      
-      </it-h1>
+      <div id='shell'>
+      <it-header></it-header>
+      <movie-card></movie-card>
+      </div>
   
   `
 }
