@@ -100,7 +100,7 @@ module.exports = {
     }),
     new CopyWebpackPlugin({
       patterns: [
-        { from: `${PATHS.src}/assets/images`, to: "assets/images" },
+        { from: `${PATHS.src}/assets/images/`, to: "assets/images/" },
         { from: `${PATHS.src}/assets/fonts`, to: "assets/fonts" },
         { from: `${PATHS.src}/public`, to: "" },
       ],

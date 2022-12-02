@@ -3,7 +3,7 @@ const generateMovies = (qty) => {
         id: index,
         title: `Movie ${index}`,
         rating: Math.ceil(Math.random(index) * 5),
-        poster: `../../images/movie${index}.jpg`,
+        poster: `movie${index + 1}.jpg`,
         coments: [
             {
                 title: 'Coment 1',

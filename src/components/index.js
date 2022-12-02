@@ -1,2 +1,3 @@
-export * from './header'
-export * from './CardMovie'
+export * from './organism/header'
+export * from './organism/CardMovie'
+export * from './pages'
