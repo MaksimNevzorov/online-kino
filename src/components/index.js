@@ -1,3 +1,3 @@
-export * from './organism/header'
-export * from './organism/CardMovie'
+export * from './organisms'
 export * from './pages'
+export * from './atoms'
