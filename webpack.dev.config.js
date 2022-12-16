@@ -6,7 +6,7 @@ const devWebpackConfig = merge(baseWebpackConfig, {
   mode: "development",
   devtool: "cheap-module-source-map",
   devServer: {
-  historyApiFallback: true,
+    historyApiFallback: true,
     static: "./",
     port: 3000,
     client: {
